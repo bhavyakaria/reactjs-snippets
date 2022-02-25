@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { FriendList } from './FriendList';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FriendList />
   </React.StrictMode>,
   document.getElementById('root')
 );
